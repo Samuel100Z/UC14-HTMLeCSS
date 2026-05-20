@@ -1,0 +1,45 @@
+#titulo-clinica {
+    color: white;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Vampiro+One&family=Zen+Dots&display=swap');
+
+body {
+    background-color: aqua;
+}
+
+h2 {
+    text-align: center;
+    border: 2px;
+    border-color: black;
+    color: white;
+}
+
+.bemvindo {
+    text-justify: auto;
+    text-align: center;
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+.medicos {
+    text-align: center;
+    color: white;
+}
+
+#aviso {
+    text-align: center;
+    color: white;
+}
+
+.depoimentos {
+    text-align: center;
+    color: white;
+}
