@@ -1,0 +1,36 @@
+@keyframes moverBotao {
+    0% {
+        background-color: blue;
+        rotate: 0deg;
+    }
+
+    50% {
+        background-color: green;
+        rotate: 180deg;
+    }
+
+    100% {
+        background-color: red;
+        rotate: 360deg;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: blue;
+}
+
+
+button {
+    padding: 20px 40px;
+    cursor: pointer;
+    border: none;
+    animation: moverBotao 3s infinite alternate;
+}
+
+button:hover {
+    animation-play-state: paused;
+}
